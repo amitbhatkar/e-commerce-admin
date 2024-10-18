@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "791783176388",
+    "project_id": "ecommerceakart",
+    "storage_bucket": "ecommerceakart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791783176388:android:ea22044ebbdd3a7b23f191",
+        "android_client_info": {
+          "package_name": "com.example.akartadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs05KN1cDfCFA69dCzSgDnKlJdBJpJnpc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

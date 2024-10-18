@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".allActivity.Product"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/pName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:hint=" Product Name"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/pMRP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Product MRP "
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/pSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Product SP"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/pDesp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Product Description"
+        android:minHeight="48dp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCoverImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Cover Image"
+        android:layout_marginTop="30dp"
+        tools:ignore="MissingClass" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnProductImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Product Image"
+        android:layout_marginTop="20dp"
+        tools:ignore="MissingClass" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAddProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Product"
+        android:layout_marginTop="70dp"
+        tools:ignore="MissingClass" />
+</LinearLayout>
